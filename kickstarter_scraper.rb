@@ -9,7 +9,7 @@ def create_project_hash
   #project: kickstarter.css("li.project.grid_4")
   #title: kickstarter.css("h2.bbcard_name strong a").text
   #image: kickstarter.css("div.project-thumbnail a img").attribute("src").value
-  #description: kickstarter.css("bbcard_blurb").text
+  #description: kickstarter.css("p.bbcard_blurb").text
   #location: kickstarter.css("li a span.location-name").text
 end
 
